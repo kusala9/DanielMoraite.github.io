@@ -1,23 +1,6 @@
-## Work in Progress
+Will have a text here 
+ 
 
-Making sure this page will look great. 
+Thanks, 
 
-### Will have all sorts of fun
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
+Daniel
