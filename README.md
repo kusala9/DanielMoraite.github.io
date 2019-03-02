@@ -1,6 +1,5 @@
 
-(/images/photo.png)
-
+![# Welcome to my adventure](/images/photo.png)
 
 
 # Welcome to my adventure
