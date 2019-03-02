@@ -21,6 +21,6 @@ Please feel free to drop me a comment or questions at moraite.daniel@gmail.com
 This are the people who influenced me the most to pursue this path: first [Marissa Anne S.](https://www.linkedin.com/in/marissasimons/), second [Bogdan Lalu](https://www.linkedin.com/in/bogdanlalu/), both of them starting to code from scratch and finally [Laurens Geffert](https://janlauge.github.io). They all have been a moral support and they have also shared valueable resources, insights and mentoring. Big Thank YOU! 
 
 
-###### Notice
-*Since I realized that forking another theme or someone's website template might take me some time (and already took 2 days to make sense of things) I decided to focus first on writing down the data science related posts and continuing studying. For which I would like you all to accept my appologies for a long scrolling up and down.* 
+#### Notice
+>*Since I realized that forking another theme or someone's website template might take me some time (and already took 2 days to make sense of things) I decided to focus first on writing down the data science related posts and continuing studying. For which I would like you all to accept my appologies for a long scrolling up and down.
 
