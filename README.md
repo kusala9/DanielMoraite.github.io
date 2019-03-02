@@ -5,9 +5,9 @@ I am writing this because: I am passionate about technology and I’ve enjoyed u
 My previous roles inspired me to get closer to the practical side of things and I started studying data science and coding on my own.
 
  
-# About [About](docs/about.md)
+# [About](docs/about.md)
 
-# Contact [Contact](docs/contact.md)
+# [Contact](docs/contact.md)
 
 
 # [Resources](docs/Resources.md)
