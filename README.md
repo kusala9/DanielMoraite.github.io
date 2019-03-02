@@ -20,6 +20,8 @@ This are the people who influenced me the most to pursue this path: first [Maris
 #### Kind Notice
 >Since I realized that forking another theme or someone's website template might take me some time (and already took 2 days to make sense of things) I decided to focus first on writing down the data science related posts and continuing studying. For which I would like you all to accept my appologies for a long scrolling up and down.
 
+# [My First Entry](docs/Resources.md)
+
 # My First Entry:
 
 ### Resources 
