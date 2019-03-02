@@ -1,3 +1,13 @@
 theme: jekyll-theme-minimal
+
+url: "https://username.github.io"
+baseurl: ""
+
 title: Daniel's Data Science Quest!
 description: A personal study collection for Data Science.
+
+# --- Navigation bar options --- #
+
+# List of links in the navigation bar
+navbar-links:
+  About Me: "aboutme"
