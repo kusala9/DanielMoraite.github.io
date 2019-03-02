@@ -2,15 +2,12 @@
 ![# Welcome to my adventure](/images/photo.png)
 
 
-# Welcome to my adventure
+> There certainly will be job disruption. Because what's going to happen is robots will be able to do everything better than us. ... I mean all of us.
+> 
+> - Elon Musk
 
-
-Hi everyone, 
-
-I am writing this because: I am passionate about technology and I’ve enjoyed understanding the mechanics behind the new innovative solutions and products I’ve encountered in the field of data analytics, machine learning and deep learning. 
-
-My previous roles inspired me to get closer to the practical side of things and I started studying data science and coding on my own.
-
+> Machine learning allows us to build software solutions that exceed human understanding and shows us how AI can innervate every industry.
+> - Steve Jurvetson
 
  
 |  [About](docs/about.md) | 
@@ -19,13 +16,17 @@ My previous roles inspired me to get closer to the practical side of things and 
  
 
 
-## Content
 
 
-1. [Resources](docs/Resources.md) 
 
-2. [Second Entry: Python](docs/second.md)
+* [Resources](docs/Resources.md) 
+> A list of resources that I'm currently learning from...
 
-3. [Captain's third log: Pandas](docs/third.md)
+* [Second Entry: Python](docs/second.md)
+> Some basic mentions of what I found more interesting and practical coding with python...
 
-4. [Into the deep space: Object Detection](docs/forth.md)
+* [Captain's third log: Pandas](docs/third.md)
+> Data science and pandas...
+
+* [Into the deep space: Object Detection](docs/forth.md)
+> ...
