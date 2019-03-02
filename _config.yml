@@ -1,3 +1,12 @@
 theme: jekyll-theme-minimal
+# Site settings
 title: Daniel`s Data Science Quest!
 description: A personal study collection for Data Science.
+title_image: 'https://danielmoraite.github.io/images/45300170.jpeg'
+
+author:
+  name: 'Daniel Moraite'
+  email: moraite.daniel@gmail.com
+  github_username:  DanielMoraite
+  twitter_username: DanielMoraite
+  linkedin_username:  daniel-moraite-29055115
