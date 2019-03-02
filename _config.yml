@@ -11,3 +11,24 @@ description: A personal study collection for Data Science.
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
+
+# Image to show in the navigation bar - image must be a square (width = height)
+# Remove this parameter if you don't want an image in the navbar
+avatar: "/images/daniel.jpeg"
+title-img: /images/daniel.jpeg
+
+navbar-img: "/images/background.jpeg"
+# footer-img: "/img/bgimage.png"
+# page-img: "/img/bgimage.png"
+
+author:
+  name: Daniel Moraite
+
+social-network-links:
+  email: "moraite.daniel@gmail.com"
+  linkedin: "daniel-moraite-29055115"
+  twitter: "danielmoraite
+
+share-links-active:
+  twitter: true
+  linkedin: true
