@@ -7,22 +7,19 @@ My previous roles inspired me to get closer to the practical side of things and 
 
  
 |  [About](docs/about.md) | 
-|  [Contact](docs/contact.md) | 
+
 |  [Resources](docs/Resources.md) |
+
+|  [Contact](docs/contact.md) | 
  
-# [About](docs/about.md)
-
-# [Contact](docs/contact.md)
-
-
-# [Resources](docs/Resources.md)
 
 
 
-## [Second Entry](docs/second.md)
 
-### 
+1. ## [Second Entry](docs/second.md)
 
-## [Captain's third log](docs/third.md)
+2. ### 
+
+3. ## [Captain's third log](docs/third.md)
 
 ###
