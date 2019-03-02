@@ -1,3 +1,8 @@
+
+![GitHub Logo](/images/Screen_Shot_2019-01-22_at_9.46.30_AM.png)
+Format: ![Alt Text](url)
+
+
 # Welcome to my adventure
 Hi everyone, 
 
@@ -8,18 +13,18 @@ My previous roles inspired me to get closer to the practical side of things and 
  
 |  [About](docs/about.md) | 
 
-|  [Resources](docs/Resources.md) |
+|  |
 
 |  [Contact](docs/contact.md) | 
  
 
+## Content
 
 
+1. [Resources](docs/Resources.md) 
 
-1. ## [Second Entry](docs/second.md)
+2. [Second Entry: Python](docs/second.md)
 
-2. ### 
+3. [Captain's third log: Pandas](docs/third.md)
 
-3. ## [Captain's third log](docs/third.md)
-
-###
+4. [Into the deep space: Object Detection](docs/forth.md)
