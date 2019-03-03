@@ -16,7 +16,7 @@ Daniel
 ------------ 
 
 
-| [Twitter](https://twitter.com/DanielMoraite) | [Linkedin](https://www.linkedin.com/in/daniel-moraite-29055115/) | [Email](https://moraite.daniel@gmail.com) | 
+| [Twitter](https://twitter.com/DanielMoraite) | [Linkedin](https://www.linkedin.com/in/daniel-moraite-29055115/) | 
 
 
 ------------  
