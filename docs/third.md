@@ -19,6 +19,9 @@ You can warm up with this data set. Just had fun with it last weekend when recei
    df = pd.read_csv("avocado.csv")
    df.head()
 ```
+
+
+
 Easy to plot a simple plot with dates and prices:
 ![pandas](/images/pandas1.png)
 
@@ -28,6 +31,9 @@ Also fun to get your data to normalize your data:
 
 * Pima predictions set used for predicting diabetes:
 Here you can see a different data set where pandas combine so beautifully with numpy and matplotlib: I find correlation matrixes very apealing. 
+
+
+
 
 Correlation Matrix 1 | Correlation Matrix 2
 -------------------  | --------------------
@@ -42,6 +48,8 @@ Correlation Matrix 1 | Correlation Matrix 2
 | ```rs = np.random.RandomState(0)
            corr = df.corr()
            corr.style.background_gradient()```
+
+
 
 Photo 2 you can easily see the correlation between the two columns(age and thickness), though not all the data is that friendly. 
 
