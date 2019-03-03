@@ -23,6 +23,9 @@ Here are a few articles from the past months that I find inspiring. Hope you wil
 * [An AI physicist can derive the natural laws of imagined universes](https://www.technologyreview.com/s/612358/an-ai-physicist-can-derive-the-natural-laws-of-imagined-universes/?utm_source=facebook.com&utm_medium=social&utm_campaign=owned_social&fbclid=IwAR2S8M41F0UBZcisdPodFSnLGs2iv5qL-gjFWExQuAhE34d9Xlt6hXSrH-Q)
 
 
+--------------------------------
+
+
 ![# Welcome to my adventure](/images/diamandis.png)
 
 -------------
