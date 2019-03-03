@@ -1,7 +1,7 @@
 # Contact:
 ------------ 
 
-Please feel free to drop me a line anytime if you have a comment or a questions.  
+Feel free to drop me a line if you have a recommendation, a comment or a question.  
 
 Email: moraite.daniel@gmail.com 
 
@@ -14,6 +14,7 @@ Daniel
 
 
 | [Twitter](https://twitter.com/DanielMoraite) | [Linkedin](https://www.linkedin.com/in/daniel-moraite-29055115/) |
--------------
+
 
 ------------  
+--------------------------------------
