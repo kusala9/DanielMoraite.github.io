@@ -17,7 +17,7 @@ Please find bellow a list with all the resources I've been using so far.
 ------------------------------------
 And of course the internet is full of resources inlcuding many websites as [Machine Learning Mastery](https://machinelearningmastery.com/start-here/) or if you feel like going one step further into advanced details then feel free to explore the libraries resources [Scikit-Learn](https://scikit-learn.org/stable/).
 
-Book: [Introduction to Machine Learning with Python](https://www.goodreads.com/book/show/24346909-introduction-to-machine-learning-with-python) by Andreas C. Müller & Sarah Guido - which I find very useful to get the basic and a little bit more. It helped me a lot to understand the mechanics behind many algorythms presented in the online classes above. 
+> Book: [Introduction to Machine Learning with Python](https://www.goodreads.com/book/show/24346909-introduction-to-machine-learning-with-python) by Andreas C. Müller & Sarah Guido - which I find very useful to get the basic and a little bit more. It helped me a lot to understand the mechanics behind many algorythms presented in the online classes above. 
 
 --------------------------------------
 Feel free to email me if you want to recommend other resources. 
