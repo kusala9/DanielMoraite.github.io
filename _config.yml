@@ -1,16 +1,8 @@
 theme: jekyll-theme-minimal
 
 title: Daniel's Data Science Quest!
-description: A personal study collection for Data Science.
+description: A personal study collection for Data Science educational purposes only.
+             
 
 author:
   name: Daniel Moraite
-
-social-network-links:
-  email: "moraite.daniel@gmail.com"
-  linkedin: "daniel-moraite-29055115"
-  twitter: "danielmoraite"
-
-share-links-active:
-  twitter: true
-  linkedin: true
