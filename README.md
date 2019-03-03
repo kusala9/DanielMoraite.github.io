@@ -21,6 +21,10 @@
 
 * [Resources](docs/Resources.md) 
 > A list of resources that I'm currently learning from...
+* [Inspiring Articles](docs/Inspiring.md) 
+> A list of articles that I find revealing. 
+
+-----------------------------------------
 
 * [Second Entry: Python](docs/second.md)
 > Some basic mentions of what I found more interesting and practical coding with python...
