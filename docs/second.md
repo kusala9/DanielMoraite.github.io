@@ -18,7 +18,7 @@ Definitelly check first if your system contains already a python version `~ Dani
 
 --------------------------------------------------
 
-I'd say going through some of the available [resources](/docs/resources.md) and play with `if else or while and for loops`, classes and most important don't forget about `arrays` which you deal with when working with pandas and anything else around data science. 
+I'd say going through some of the available [resources](https://danielmoraite.github.io/docs/Resources.html) and play with `if else or while and for loops`, classes and most important don't forget about `arrays` which you deal with when working with pandas and anything else around data science. 
 
 Virtual environments: some would say not to rush into using them if a beginner, though if you are ready to step further into data science and ML, make sure you install [Anaconda](https://www.anaconda.com/distribution/) / [Conda](https://conda.io/en/latest/) and then [Jupyter notebook](https://www.jupyter.org). 
 I just love when I open my terminal and type `~ Daniel$ conda activate virtenv`and `jupyter notebook`.
