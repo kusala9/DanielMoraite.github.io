@@ -1,5 +1,5 @@
 
-![# Welcome to my adventure](/images/photo.png)
+![# Welcome to my adventure](/images/photo.jpeg)
 
 
 > There certainly will be job disruption. Because what's going to happen is robots will be able to do everything better than us. ... I mean all of us.
@@ -12,18 +12,9 @@
  
 |  [About](docs/about.md) | 
 
-|  [Contact](docs/contact.md) | 
- 
-
-
-
-
-
-* [Resources](docs/Resources.md) 
+|  [Resources](docs/Resources.md) | 
 > A list of resources that I'm currently learning from...
-* [Inspiring Articles](docs/Inspiring.md) 
-> A list of articles that I find revealing. 
-
+  
 -----------------------------------------
 
 * [Second Entry: Python](docs/second.md)
@@ -34,3 +25,11 @@
 
 * [Into the deep space: Object Detection](docs/forth.md)
 > ...
+
+
+| [Inspiring Articles](docs/inspiring.md) | 
+> A list of articles that I find revealing.
+| [Contact](docs/contact.md) | 
+
+---------------------------------------
+
