@@ -1,9 +1,11 @@
-# Vision - Object indentification 
+![Machine Learning](/images/robo28.jpg)
 
-## Excitement 
+# Machine Learning
 
-#### Challenges 
+## Coming soon: 
 
+> Fun with previous data sets that we've clean with pandas.
+> Some of my favorite projects.
 
-
-this is about jumping too far - object detection - manually tagginf a video/photos - Microsoft Cloud and PIP
+----------------
+----------------
