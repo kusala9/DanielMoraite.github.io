@@ -1,7 +1,7 @@
 ## My First Entry:
 
 ### Resources 
-
+-------------------------
 ##### Motto: Learning by doing!!!
 ---------------------------------
 Please find bellow a list with all the resources I've been using so far. 
