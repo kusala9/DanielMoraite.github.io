@@ -13,7 +13,7 @@
 |  [About](docs/about.md) | 
 
 |  [Resources](docs/Resources.md) | 
-> A list of resources that I'm currently learning from...
+
   
 -----------------------------------------
 
@@ -28,7 +28,7 @@
 
 
 | [Inspiring Articles](docs/inspiring.md) | 
-> A list of articles that I find revealing.
+
 | [Contact](docs/contact.md) | 
 
 ---------------------------------------
