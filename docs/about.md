@@ -1,3 +1,6 @@
+![# Welcome to my adventure](/images/robot.jpg)
+
+
 # Welcome to my adventure!
 ----------------------------
 
