@@ -8,6 +8,9 @@ Here are a few articles from the past months that I find inspiring. Hope you wil
 ###### by Andrew Ng:
 * [How to lead your company into the AI era](https://landing.ai/ai-transformation-playbook/)
 
+###### by Wired:
+* [THE DIY TINKERERS HARNESSING THE POWER OF ARTIFICIAL INTELLIGENCE](https://www.wired.com/story/diy-tinkerers-artificial-intelligence-smart-tech/)
+
 ###### by Steve Jurvetson:
 * [Quantum Materials Simulation in Nature and Science](https://www.flickr.com/photos/jurvetson/44159880032/in/photostream/)
 * [Intelligence Inside: the future of AI and computation](https://www.flickr.com/photos/jurvetson/28799579322/)
@@ -22,11 +25,6 @@ Here are a few articles from the past months that I find inspiring. Hope you wil
 ###### by MIT:
 * [An AI physicist can derive the natural laws of imagined universes](https://www.technologyreview.com/s/612358/an-ai-physicist-can-derive-the-natural-laws-of-imagined-universes/?utm_source=facebook.com&utm_medium=social&utm_campaign=owned_social&fbclid=IwAR2S8M41F0UBZcisdPodFSnLGs2iv5qL-gjFWExQuAhE34d9Xlt6hXSrH-Q)
 
-
---------------------------------
-
-
-![# Welcome to my adventure](/images/diamandis.png)
 
 -------------
 -------------
