@@ -38,6 +38,8 @@ Here you can see a different data set where pandas combine so beautifully with n
 Correlation Matrix 1 | Correlation Matrix 2
 -------------------  | --------------------
 ![pandas](/images/correlmatrix2.png) | ![pandas](/images/correlmatrix3.png)
+
+
   ```def plot_corr(df, size=11):
           corr = df.corr()
           fig, ax = plt.subplots(figsize=(size, size))
@@ -45,19 +47,18 @@ Correlation Matrix 1 | Correlation Matrix 2
           plt.xticks(range(len(corr.columns)), corr.columns)
           plt.yticks(range(len(corr.columns)), corr.columns)
 ```
-| ```rs = np.random.RandomState(0)
+
+
+```rs = np.random.RandomState(0)
            corr = df.corr()
-           corr.style.background_gradient()```
+           corr.style.background_gradient()
+```
+           
+
+Second graph: you can easily see the correlation between the two columns(age and thickness), though not all the data sets are that friendly. 
 
 
-
-Photo 2 you can easily see the correlation between the two columns(age and thickness), though not all the data is that friendly. 
-
-
-* etc. 
-And the last example
-
-![](images/)
+> coming soon ... 
 
 I will return with more examples and feedback (since I am planning to learn more about the full cycle of ... from data cleaning and using it for ML .. to API's) ... 
 
@@ -65,5 +66,10 @@ I will return with more examples and feedback (since I am planning to learn more
 
 #### Tools and Resources: 
 
-Practice makes perfect, and is always better to try your knowledge on data sets that you haven't worked during online classes. A best place to find all sorts of data is [Kaggle](https://www.kaggle.com/)
+Practice makes perfect, and is always better to try your knowledge on data sets that you haven't worked during online classes. A best place to find all sorts of data is [Kaggle](https://www.kaggle.com/).
+
+-------------------
+-------------------
+
+
 
