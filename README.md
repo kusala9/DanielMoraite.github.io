@@ -21,10 +21,16 @@
 > Some basic mentions of what I found more interesting and practical coding with python...
 
 * [Captain's third log: Pandas](docs/third.md)
-> Data science and pandas...
+> Those cute little pandas...
 
-* [Into the deep space: Object Detection](docs/forth.md)
-> ...
+* [Machine Learning](docs/forth.md)
+> Coming soon: Fun with previous data sets that we've clean with pandas. 
+
+* [Tensorflow and NN](docs/fifth.md)
+> Coming soon: some of my favorite projects.
+
+* [Into the deep space](docs/sixth.md)
+> Coming soon: Just a few random projects: Object Detection, OpenCV, etc.
 
 
 | [Inspiring Articles](docs/inspiring.md) | 
