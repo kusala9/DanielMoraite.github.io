@@ -1,4 +1,4 @@
-![# Welcome to my adventure](/images/robo14.jpg)
+![# Welcome to my adventure](/images/robo14.jpeg)
 
 # Python 
 
