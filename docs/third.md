@@ -15,10 +15,6 @@ Of course there are somany different types of data and for each of them there is
 * Avocado set used for prediction of avocado prices:
 You can warm up with this data set. Just had fun with it last weekend when received it from Bogdan: [Introduction - Data Analysis and Data Science with Python and Pandas](https://youtu.be/nLw1RNvfElg)
 
-`import pandas as pd
-   df = pd.read_csv("avocado.csv")
-   df.head()`
-
 Easy to plot a simple plot with dates and prices:
 ![pandas](/images/pandas1.png)
 
