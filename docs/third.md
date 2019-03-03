@@ -1,4 +1,4 @@
-![robo](/images/robo22jpeg)
+![robo](/images/robo22.jpeg)
 
 # Pandas 
 
@@ -29,20 +29,21 @@ Also fun to get your data to normalize your data:
 * Pima predictions set used for predicting diabetes:
 Here you can see a different data set where pandas combine so beautifully with numpy and matplotlib: I find correlation matrixes very apealing. 
 
-
-| ![pandas](/images/corelmatrix2) | ![pandas](/images/corelmatrix3) |
-|  ```def plot_corr(df, size=11):
+Correlation Matrix 1 | Correlation Matrix 2
+-------------------  | --------------------
+![pandas](/images/correlmatrix2.png) | ![pandas](/images/correlmatrix3.png)
+  ```def plot_corr(df, size=11):
           corr = df.corr()
           fig, ax = plt.subplots(figsize=(size, size))
           ax.matshow(corr)
           plt.xticks(range(len(corr.columns)), corr.columns)
           plt.yticks(range(len(corr.columns)), corr.columns)
-``` |  ```rs = np.random.RandomState(0)
-               corr = df.corr()
-               corr.style.background_gradient() 
-``` |
 ```
+| ```rs = np.random.RandomState(0)
+           corr = df.corr()
+           corr.style.background_gradient()```
 
+Photo 2 you can easily see the correlation between the two columns(age and thickness), though not all the data is that friendly. 
 
 
 * etc. 
