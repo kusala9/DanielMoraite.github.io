@@ -1,3 +1,5 @@
+![# Welcome to my adventure](/images/robo27.jpg)
+
 ## My First Entry:
 
 ### Resources 
