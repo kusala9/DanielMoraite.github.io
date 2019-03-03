@@ -1,4 +1,4 @@
-![robo](images/)
+![robo](/images/robo22jpeg)
 
 # Pandas 
 
@@ -20,17 +20,17 @@ You can warm up with this data set. Just had fun with it last weekend when recei
    df.head()
 ```
 Easy to plot a simple plot with dates and prices:
-![pandas](images/pandas1.png)
+![pandas](/images/pandas1.png)
 
 Also fun to get your data to normalize your data: 
-![pandas](images/datanormalizer.png)
+![pandas](/images/datanormalizer.png)
 > of course there are other libraries that have preseted such functions, so you don't have to think about writting a formula.
 
 * Pima predictions set used for predicting diabetes:
 Here you can see a different data set where pandas combine so beautifully with numpy and matplotlib: I find correlation matrixes very apealing. 
 
 
-| ![pandas]/(images/corelmatrix2) | ![pandas]/(images/corelmatrix3) |
+| ![pandas](/images/corelmatrix2) | ![pandas](/images/corelmatrix3) |
 |  ```def plot_corr(df, size=11):
           corr = df.corr()
           fig, ax = plt.subplots(figsize=(size, size))
