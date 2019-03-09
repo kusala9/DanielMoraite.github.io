@@ -1,0 +1,58 @@
+# Satellite Imagery Analysis with Python
+
+## A study of vegetation cover of a region 
+
+### Setup 
+  - Planet’s Python Client
+  - before Rasterio you need to have numpy 
+  - Rasterio: Geographic information systems use GeoTIFF and other formats to organize and store gridded raster datasets such as satellite imagery and terrain models. 
+              Rasterio is a Python library which reads and writes these formats and provides a Python API based on Numpy N-dimensional arrays and GeoJSON.numpy
+  - matplotlib
+  - requests (you might not need to if you already have miniconda installed) 
+'$ pip install requests Requirement already satisfied: requests in /miniconda3/envs/100days/lib/python3.6/site-packages (2.21.0)'
+
+#### Data 
+The data used in this exercise has been downloaded from Planet Explorer. Planet Explorer is a product of Product labs and is used to explore daily imagery right in our browser. Planet labs operate the largest fleet of Earth-imaging satellites, and the data provided by them is used for monitoring vegetation to measuring agriculture outputs.
+
+An outline of the steps needed to download the imagery data.
+
+Open the link: geojson.io. It is a fast time editor for map data
+Define an Area of Interest (AOI): AOI is the location/geographical window out of which we want to get data. (photo) 
+Save the AOI’s coordinates generated in GeoJSON format in Jupyter notebook
+" geojson_geometry = " just type it before the whole copy paste coordinates. 
+Create filters for the date range, cloud coverage, and geometry. This will enable us to further constrain our Data API search.
+
+` 
+# get images that overlap with our AOI 
+geometry_filter = {
+  "type": "GeometryFilter",
+  "field_name": "geometry",
+  "config": geojson_geometry
+}
+
+# get images acquired within a date range
+date_range_filter = {
+  "type": "DateRangeFilter",
+  "field_name": "acquired",
+  "config": {
+    "gte": "2016-08-31T00:00:00.000Z",
+    "lte": "2016-09-01T00:00:00.000Z"
+  }
+}
+
+# only get images which have <50% cloud coverage
+cloud_cover_filter = {
+  "type": "RangeFilter",
+  "field_name": "cloud_cover",
+  "config": {
+    "lte": 0.5
+  }
+}
+
+# combine our geo, date, cloud filters
+combined_filter = {
+  "type": "AndFilter",
+  "config": [geometry_filter, date_range_filter, cloud_cover_filter]
+} 
+`
+
