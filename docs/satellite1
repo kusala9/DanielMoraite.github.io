@@ -56,3 +56,18 @@ combined_filter = {
 } 
 `
 
+Planet API Key (photo)
+To use Planet’s APIs, you’ll need an API key. Create an account(14-day trial) at Planet Explorer and access the API key from here.
+
+we want a 4 band image with spectral data for Red, Green, Blue and Near-infrared values. To get the image we want, we will specify an item type of 'PSScene4Band' and 'asset type.analytic'
+
+photo or code here 
+
+To download the image, we need to activate it. Once the activation status becomes “active,” we can then download the image of interest.
+
+Exploring the Satellite Imagery
+The python’s Rasterio library makes it very easy to explore satellite images. Satellite Images are nothing but grids of pixel-values and hence can be interpreted as multidimensional arrays.
+
+- figure out how to include a notebook doc - that can be scrll-able. 
+
+
