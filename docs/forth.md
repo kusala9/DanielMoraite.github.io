@@ -3,7 +3,7 @@
 # Machine Learning
 
 I. Looking at some old and new algorithms and ensembles
-   - Warming up with a XGBoost 
+   - Warming up with XGBoost 
 
 II. Interesting applications and solutions 
 
