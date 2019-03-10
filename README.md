@@ -43,7 +43,7 @@
 * [A study of vegetation cover](docs/satellite2.md)
 > Normalized Difference Vegetation Index (NDVI)...
 
-* [Around the planet](docs/satellite3.md)
+* [Orbiting the planet](docs/satellite3.md)
 > Coming soon: machine learning for satellite imagery...
 
 ------------------------------------------
