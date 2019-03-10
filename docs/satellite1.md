@@ -258,7 +258,7 @@ Storing the bands(B,G,R,N infrared) in numpy array:
     fig.set_cmap('gist_earth')
     plt.show()
 
-![# Welcome to my adventure](/images/Cali2.png)
+![# Welcome to my adventure](/images/Cali3.png)
 
     # Displaying the red band.
 
@@ -267,7 +267,7 @@ Storing the bands(B,G,R,N infrared) in numpy array:
     plt.colorbar()
     plt.show()
 
-![# Welcome to my adventure](/images/Cali3.png)
+![# Welcome to my adventure](/images/Cali2.png)
 
     # Displaying the infrared band.
 
