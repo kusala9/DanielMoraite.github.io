@@ -23,9 +23,10 @@ Get to your Jupyter Notebook and start typing:
        from planet import api
        client = api.ClientV1()
 
-      # Get your coordinates with this fast hack: at geojson.io and pick your area of interest and copy paste your coordinates bellow:
-      # I have picked some Silicon Valley, San Francisco, CA, USA, coordinates:
+Get your coordinates with this fast hack: at geojson.io and pick your area of interest and copy paste your coordinates bellow:
+![# Welcome to my adventure](/images/Cali7.png)
 
+        # I have picked some Silicon Valley, San Francisco, CA, USA, coordinates:
         geojson_geometry = {
           "type": "Polygon",
           "coordinates": [
@@ -249,7 +250,7 @@ Storing the bands(B,G,R,N infrared) in numpy array:
     fig = plt.imshow(b)
     plt.show()
 
-![# Welcome to my adventure](/images/Cali1.jpeg)
+![# Welcome to my adventure](/images/Cali1.png)
 
     # Displaying the green band.
 
@@ -257,7 +258,7 @@ Storing the bands(B,G,R,N infrared) in numpy array:
     fig.set_cmap('gist_earth')
     plt.show()
 
-![# Welcome to my adventure](/images/Cali2.jpeg)
+![# Welcome to my adventure](/images/Cali2.png)
 
     # Displaying the red band.
 
@@ -266,7 +267,7 @@ Storing the bands(B,G,R,N infrared) in numpy array:
     plt.colorbar()
     plt.show()
 
-![# Welcome to my adventure](/images/Cali3.jpeg)
+![# Welcome to my adventure](/images/Cali3.png)
 
     # Displaying the infrared band.
 
@@ -275,7 +276,7 @@ Storing the bands(B,G,R,N infrared) in numpy array:
     plt.colorbar()
     plt.show()
 
-![# Welcome to my adventure](/images/Cali31.jpeg)
+![# Welcome to my adventure](/images/Cali31.png)
 
 This can be a very useful practice for data preparation for machine & deep learning approached doan the road, including the NDVI which can add to object classification for vegetation (trees, parks, etc.).
 
