@@ -127,3 +127,8 @@ Let's jump straight into it:
       plt.show()
 
 ![# Welcome to my adventure](/images/Cali5.png) 
+
+I guess there is no wonder to see (in both photo and histogram) a pretty dry Cali, since the data was taken end of August 2018 when it happens that I was visiting San Francisco and the air was filled with smoke from the fires down south. 
+
+-------------------------------------
+-------------------------------
