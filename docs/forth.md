@@ -11,13 +11,14 @@ III. Some of my favorite projects
 
 
 ------------------
-I. ### XGBoost
+I. 
+### XGBoost
 
    Now let's have some fun with the previous data sets that we've clean with pandas.
 
    Since XGBoost is so popular, as an ensemble of decision trees, I thought to have a look at how it works on simple data sets (Titanic/survivors and Pima/diabets). I'll just have a very quick data cleaning and then will be scoring the XGBoost models.
 
-First set: classification: 
+First data set: 
 
     import pandas as pd
     from sklearn.model_selection import train_test_split
@@ -48,7 +49,7 @@ And look at the prediction model accuracy: which is 82.68%
     accuracy = accuracy_score(y_test, predictions)
     print("Accuracy: %.2f%%" % (accuracy * 100.0))
 
-The other set - regression: 
+The other data set: 
 
     from numpy import loadtxt 
 
