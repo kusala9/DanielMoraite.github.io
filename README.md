@@ -36,7 +36,7 @@
 
 #### Satellites:
 
-* [Satellite Imagery Analysis with Python](docs/satelitte1.md)
+* [Satellite Imagery Analysis with Python](docs/satellite1.md)
 > First getting that abundant data from Planet...
 > Second exploring with python’s Rasterio library...
 
