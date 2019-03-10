@@ -31,8 +31,11 @@
 
 * [Into the deep space](docs/sixth.md)
 > Coming soon: Just a few random projects: Object Detection, OpenCV, etc.
+
 ------------------------------------------
+
 #### Satellites:
+
 * [Satellite Imagery Analysis with Python](docs/satelitte1.md)
 > First getting that abundant data from Planet...
 > Second exploring with python’s Rasterio library...
