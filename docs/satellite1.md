@@ -3,6 +3,8 @@
 # Satellite Imagery Analysis with Python
 
 
+## PART I
+
 ### Setup 
   - Planet’s Python Client [API](https://pypi.org/project/planet/)
   - before installing Rasterio make sure [numpy](http://www.numpy.org) is already installed
@@ -11,19 +13,19 @@
   - [requests](http://docs.python-requests.org/en/master/) (you might not need to if you already have miniconda installed: '$ pip install requests Requirement already satisfied: requests in /miniconda3/envs/...' )
 
 #### Data Extraction
-If you are a planeteer then you`ll get your data from: [Planet Explorer](https://www.planet.com/products/explorer/), of course, the 14 days trial. 
+If you are a planeteer then you'll get your data from: [Planet Explorer](https://www.planet.com/products/explorer/), of course, the 14 days trial. 
 
 Now, time to get the data: and I am proud to say that, at this moment in time, this is the most complete version that you will find online:
 
 Get to your Jupyter Notebook and start typing: 
 
 
-In 1:  from planet import api
+       from planet import api
        client = api.ClientV1()
 
-Get your coordinates with this fast hack: at geojson.io and pick your area of interest and copy paste your coordinates
+      # Get your coordinates with this fast hack: at geojson.io and pick your area of interest and copy paste your coordinates bellow:
+      # I have picked some Silicon Valley, San Francisco, CA, USA, coordinates:
 
-In 2:   # Silicon Valley, San Francisco, CA, USA, coordinates
         geojson_geometry = {
           "type": "Polygon",
           "coordinates": [
@@ -52,7 +54,10 @@ In 2:   # Silicon Valley, San Francisco, CA, USA, coordinates
                 ]
               }
 
-In 3:   # get images that overlap with our area of interest 
+
+You might want to make sure you get the right data: setting up the time frame, if clouds, by adding some filters:
+
+        # get images that overlap with our area of interest 
         geometry_filter = {
           "type": "GeometryFilter",
           "field_name": "geometry",
@@ -84,9 +89,9 @@ In 3:   # get images that overlap with our area of interest
           "config": [geometry_filter, date_range_filter, cloud_cover_filter]
         }
 
-Make sure you`ve got your API key from [Planet's Account](https://www.planet.com/account/#/). 
+Make sure you've got your API key from [Planet's Account](https://www.planet.com/account/#/). 
 
-In 4:   import os
+        import os
         import json
         import requests
         from requests.auth import HTTPBasicAuth
@@ -116,13 +121,82 @@ In 4:   import os
         print(json.dumps(search_result.json(), indent=1))
 
 
+To download a photo you need to pick one and set the asset type: 'analytic' or 'analytic_dn'(which is Planet old format), as well the activation status needs to be “active”. Just have patience, it might take a few minutes (3 to 5 min). 
+
+    # extract image IDs only
+    image_ids = [feature['id'] for feature in search_result.json()['features']]
+    print(image_ids)
+
+    # For demo purposes, just grab the first image ID
+    id0 = image_ids[0]
+    id0_url = 'https://api.planet.com/data/v1/item-types/{}/items/{}/assets'.format(item_type, id0)
+
+    # Returns JSON metadata for assets in this ID. Learn more: planet.com/docs/reference/data-api/items-assets/#asset
+    result = \
+      requests.get(
+        id0_url,
+        auth=HTTPBasicAuth(PLANET_API_KEY, '')
+      )
+
+    # List of asset types available for this particular satellite image
+    print(result.json().keys())
+
+    # This is "inactive" if the "analytic" asset has not yet been activated; otherwise 'active'
+    print(result.json()['analytic_dn']['status'])
+
+Then activate it: 
+
+    # activate the asset for download:
+    links = result.json()[u"analytic_dn"]["_links"]
+    self_link = links["_self"]
+    activation_link = links["activate"]
+
+    # Request activation of the 'analytic' asset:
+    activate_result = \
+      requests.get(
+        activation_link,
+        auth=HTTPBasicAuth(PLANET_API_KEY, '')
+      )
+
+And while saying 'Activating' you can probe if ready with: 
+
+    activation_status_result = \
+      requests.get(
+        self_link,
+        auth=HTTPBasicAuth(PLANET_API_KEY, '')
+      )
+
+    print(activation_status_result.json()["status"])
+
+When 'Active' just download it:
+
+    # Image can be downloaded by making a GET with your Planet API key, from here:
+    download_link = activation_status_result.json()["location"]
+    print(download_link)
+
+And check you download folder. If you don't have the right app to view a .tiff then don't get alarmed if the image looks blank in your regular image viewer. And make sure you have enough space on disc. 
+_________________________
+
+Please find the entire code [here](https://github.com/DanielMoraite/DanielMoraite.github.io/blob/master/assets/Downloading%20from%20Planet-Copy1.ipynb)
+All you'll have to do is pick you own coordinates, instead of spending hour figuring the above. 
+
+> Active data will be only from California, USA. You might find other active data (like for example Romania, though it will be available for areas bigger than 10K Square Kilometres which will turn a error message for exceeding your monthly download limit.
+
+_________________________
+###### Data Trouble Shooting (hopefully you won't need it):
+
+- [Download quota for Open California dataset?](https://gis.stackexchange.com/questions/238803/download-quota-for-open-california-dataset)
+- [Why am I unable to activate certain Planet Labs images through the Python API?](https://gis.stackexchange.com/questions/217716/why-am-i-unable-to-activate-certain-planet-labs-images-through-the-python-api/217787) in case you are picking areas from the allowed region of California and still get the innactive feedback. 
+
+HAVE FUN!
+
+-------------------------
 
 
-To download the image, we need to activate it. Once the activation status becomes “active,” we can then download the image of interest.
+# Exploring the Satellite Imagery: 
 
-Exploring the Satellite Imagery
+## PART II
+
 The python’s Rasterio library makes it very easy to explore satellite images. Satellite Images are nothing but grids of pixel-values and hence can be interpreted as multidimensional arrays.
-
-- figure out how to include a notebook doc - that can be scrll-able. 
 
 
