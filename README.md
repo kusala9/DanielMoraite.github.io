@@ -24,7 +24,7 @@
 > Those cute little pandas...
 
 * [Machine Learning](docs/forth.md)
-> Coming soon: Fun with previous data sets that we've cleaned with pandas. 
+> Almost there: algorithms, interesting projects and new developments. 
 
 * [Tensorflow and NN](docs/fifth.md)
 > Coming soon: some of my favorite projects.
