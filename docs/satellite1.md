@@ -249,7 +249,7 @@ Storing the bands(B,G,R,N infrared) in numpy array:
     fig = plt.imshow(b)
     plt.show()
 
-![# Welcome to my adventure](/images/Sat3.jpeg)
+![# Welcome to my adventure](/images/Cali1.jpeg)
 
     # Displaying the green band.
 
@@ -257,7 +257,7 @@ Storing the bands(B,G,R,N infrared) in numpy array:
     fig.set_cmap('gist_earth')
     plt.show()
 
-![# Welcome to my adventure](/images/Sat3.jpeg)
+![# Welcome to my adventure](/images/Cali2.jpeg)
 
     # Displaying the red band.
 
@@ -266,7 +266,7 @@ Storing the bands(B,G,R,N infrared) in numpy array:
     plt.colorbar()
     plt.show()
 
-![# Welcome to my adventure](/images/Sat3.jpeg)
+![# Welcome to my adventure](/images/Cali3.jpeg)
 
     # Displaying the infrared band.
 
@@ -275,7 +275,7 @@ Storing the bands(B,G,R,N infrared) in numpy array:
     plt.colorbar()
     plt.show()
 
-![# Welcome to my adventure](/images/Sat3.jpeg)
+![# Welcome to my adventure](/images/Cali31.jpeg)
 
 This can be a very useful practice for data preparation for machine & deep learning approached doan the road, including the NDVI which can add to object classification for vegetation (trees, parks, etc.).
 
