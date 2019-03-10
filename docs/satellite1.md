@@ -1,4 +1,4 @@
-![# Welcome to my adventure](/images/Sat3.jpeg)
+![# Welcome to my adventure](/images/sat3.jpeg)
 
 # Satellite Imagery Analysis with Python
 
@@ -183,7 +183,7 @@ All you'll have to do is pick you own coordinates, instead of spending hour figu
 > Active data will be only from California, USA. You might find other active data (like for example Romania, though it will be available for areas bigger than 10K Square Kilometres which will turn a error message for exceeding your monthly download limit.
 
 _________________________
-###### Data Trouble Shooting (hopefully you won't need it):
+##### Data Trouble Shooting (hopefully you won't need it):
 
 - [Download quota for Open California dataset?](https://gis.stackexchange.com/questions/238803/download-quota-for-open-california-dataset)
 - [Why am I unable to activate certain Planet Labs images through the Python API?](https://gis.stackexchange.com/questions/217716/why-am-i-unable-to-activate-certain-planet-labs-images-through-the-python-api/217787) in case you are picking areas from the allowed region of California and still get the innactive feedback. 
@@ -197,6 +197,92 @@ HAVE FUN!
 
 ## PART II
 
-The python’s Rasterio library makes it very easy to explore satellite images. Satellite Images are nothing but grids of pixel-values and hence can be interpreted as multidimensional arrays.
+Time to use python’s Rasterio library since satellite images are grids of pixel-values and can be interpreted as multidimensional arrays.
+
+    import math
+    import rasterio
+    import matplotlib.pyplot as plt
+
+    image_file = "image.tif"  # just add the image downloaded from Planet.
+    sat_data = rasterio.open(image_file)
+
+Image dimmension in metres as well rows and columns: 
+
+    width_in_projected_units = sat_data.bounds.right - sat_data.bounds.left
+    height_in_projected_units = sat_data.bounds.top - sat_data.bounds.bottom
+
+    print("Width: {}, Height: {}".format(width_in_projected_units, height_in_projected_units))
+
+    print("Rows: {}, Columns: {}".format(sat_data.height, sat_data.width))
+
+Pixel conversion to latitude and longitude: 
+
+    # Upper left pixel
+    row_min = 0
+    col_min = 0
+
+    # Lower right pixel.  Rows and columns are zero indexing.
+    row_max = sat_data.height - 1
+    col_max = sat_data.width - 1
+
+    # Transform coordinates with the dataset's affine transformation.
+    topleft = sat_data.transform * (row_min, col_min)
+    botright = sat_data.transform * (row_max, col_max)
+
+    print("Top left corner coordinates: {}".format(topleft))
+    print("Bottom right corner coordinates: {}".format(botright))
+
+Storing the bands(B,G,R,N infrared) in numpy array: 
+
+    print(sat_data.count)
+
+    # sequence of band indexes
+    print(sat_data.indexes)
+
+### Visualising the Satellite Imagery
+
+    # Load the 4 bands into 2d arrays - recall that we previously learned PlanetScope band order is BGRN.
+    b, g, r, n = sat_data.read()
+
+    # Displaying the blue band.
+
+    fig = plt.imshow(b)
+    plt.show()
+
+![# Welcome to my adventure](/images/Sat3.jpeg)
+
+    # Displaying the green band.
+
+    fig = plt.imshow(g)
+    fig.set_cmap('gist_earth')
+    plt.show()
+
+![# Welcome to my adventure](/images/Sat3.jpeg)
+
+    # Displaying the red band.
+
+    fig = plt.imshow(r)
+    fig.set_cmap('inferno')
+    plt.colorbar()
+    plt.show()
+
+![# Welcome to my adventure](/images/Sat3.jpeg)
+
+    # Displaying the infrared band.
+
+    fig = plt.imshow(n)
+    fig.set_cmap('winter')
+    plt.colorbar()
+    plt.show()
+
+![# Welcome to my adventure](/images/Sat3.jpeg)
+
+This can be a very useful practice for data preparation for machine & deep learning approached doan the road, including the NDVI which can add to object classification for vegetation (trees, parks, etc.).
+
+Hope you are enjoying it! 
+
+----------------------
+----------------------
+
 
 
