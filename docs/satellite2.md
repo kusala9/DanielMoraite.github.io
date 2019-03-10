@@ -1,6 +1,6 @@
 # A study of vegetation cover 
 
-## Normalized Difference Vegetation Index (NDVI)
+##### Normalized Difference Vegetation Index (NDVI)
 
 ### Vegetation Index calculation from Satellite Imagery 
 
