@@ -47,7 +47,7 @@ We have always looked at the stars to discover who we are.  
 * [A study of vegetation cover](docs/satellite2.md)
 > Normalized Difference Vegetation Index (NDVI)...
 
-* [Orbiting the planet](docs/satellite3.md)
+* [Orbiting the planet](docs/satellite3NNKeras.md)
 > Coming soon: machine learning for satellite imagery...
 
 ------------------------------------------
