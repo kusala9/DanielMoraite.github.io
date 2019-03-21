@@ -27,7 +27,7 @@
 > Almost there: algorithms, interesting projects and new developments. 
 
 * [Tensorflow and NN](docs/fifth.md)
-> Coming soon: some of my favorite projects.
+> Docking in progress: networks and some of my favorite projects.
 
 * [Into the deep space](docs/sixth.md)
 > Coming soon: Just a few random projects: Object Detection, OpenCV, etc.
@@ -48,7 +48,7 @@ We have always looked at the stars to discover who we are.  
 > Normalized Difference Vegetation Index (NDVI)...
 
 * [Orbiting the planet](docs/Satellite3NNKeras.md)
-> Coming soon: machine learning for satellite imagery...
+> Machine learning for satellite imagery...
 
 ------------------------------------------
 
