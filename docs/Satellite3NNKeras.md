@@ -318,9 +318,12 @@ Of course you can pick more steps instead of 10 or maybe less: just make sure yo
 ![# Welcome to my adventure](/images/ships5.png)
 
 
-
 As you can see: It did classify as ship images that have straight lines and bringht pixels 
 - which I guess is the next step in finding a way to polish the model - though that's for another time. 
+
+Or if you give it a second run: 
+
+![# Welcome to my adventure](/images/ships7.png)
 
 #### Now let's make sense of tags and find them on the image:
 
