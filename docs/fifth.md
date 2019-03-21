@@ -74,6 +74,23 @@ Let's have a look at the test data:
 Workflow: will input into the neural network the training data, train_images and train_labels, which in turn will learn to associate images and labels. Then will request the network to produce predictions for test_images, and we will verify if they match the labels from test_labels.
 
 
+#### Building the network
+
+      from keras import models
+      from keras import layers
+
+      network = models.Sequential()
+
+      network
+      <keras.engine.sequential.Sequential at 0xb3873a6a0>
+
+      network.add(layers.Dense(512, activation='relu', input_shape=(28 * 28,)))
+      network.add(layers.Dense(10, activation='softmax'))
+
+
+
+
+
 To be continued... very soon.. 
 
 
