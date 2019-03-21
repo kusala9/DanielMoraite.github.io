@@ -1,4 +1,4 @@
-![# Welcome to my adventure](/images/Sat2.jpeg)
+![# Welcome to my adventure](/images/Sat2.jpg)
 
 # Ships in Satellite Imagery
 
