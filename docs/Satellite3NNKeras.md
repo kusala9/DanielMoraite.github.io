@@ -28,6 +28,8 @@ About the data:
 What we want to achieve:
 Detect the location of ships in satellite images, which can be applied to solving problems as: monitoring port activity and supply chain analysis.
 
+----------------------------------
+
 ### First Part 
    
 #### Reading and Preparing Data
