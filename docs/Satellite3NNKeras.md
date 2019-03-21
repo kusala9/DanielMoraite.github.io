@@ -1,4 +1,4 @@
-![# Welcome to my adventure](/images/photo.jpeg)
+![# Welcome to my adventure](/images/Sat2.jpeg)
 
 # Ships in Satellite Imagery
 
@@ -21,7 +21,7 @@ About the data:
 - dataset is also distributed as a JSON formatted text file, contains: data, label, scene_ids, and location lists
 - pixel value data for individual images is stored as a list of 19200 integers: first 6400 contain the red channel, next 6400 the green, and last 6400 the blue. 
 - list values at index i in labels, scene_ids, and locations each correspond to the i-th image in the data list
-- class Labels: "ship" class includes 1000 images, near-centered on the body of a single ship. 
+- class labels: "ship" class includes 1000 images, near-centered on the body of a single ship. 
              "no-ship" class includes 3000 images, 1/3 are a random sampling of different landcover features. - that do not include any portion of an ship. 
              next 1/3 are "partial ships", and 1/3 are images that have previously been mislabeled by machine learning models(because of strong linear features). 
 
@@ -95,6 +95,7 @@ A vector of 4000 elements is our output:
       array([3000, 1000]) 
       
 Vector contains of 3000 zeros and 1000 units = 1000 images are tagged with "ship" and 3000 images with "not ship".
+
 
 #### Preparing the data for keras
 
