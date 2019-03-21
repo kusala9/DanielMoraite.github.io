@@ -254,7 +254,7 @@ Get and grab a nice cup of tea or matcha cause this might take a few minutes (or
       
 ![# Welcome to my adventure](/images/ships2.png)
 
-#### Now let`s search for ships on the image
+#### Now let's search for ships on the image
 
       picture_tensor = picture_tensor.transpose(2,0,1)
 
@@ -314,14 +314,13 @@ Of course you can pick more steps instead of 10 or maybe less: just make sure yo
                   plt.imshow(area[0])
                   plt.show()
 
-![# Welcome to my adventure](/images/ships3.png)
 
-![# Welcome to my adventure](/images/ships4.png)
+![# Welcome to my adventure](/images/ships5.png)
 
-![# Welcome to my adventure](/images/photo.jpeg)
+
 
 As you can see: It did classify as ship images that have straight lines and bringht pixels 
-- which I guess is the next step in finding a way to polish the model - though that`s for another time. 
+- which I guess is the next step in finding a way to polish the model - though that's for another time. 
 
 
           
