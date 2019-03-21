@@ -5,7 +5,7 @@
 
 ## Keras
 
-Let have a look at Python library Keras since I find it useful for later projects, as in detecting ships in satellite imagery.
+Let's have a look at Python library Keras since I find it useful for later projects, as in detecting ships in satellite imagery.
 
 
 First make sure you have your virtual environment activated and Tensorflow and Keras installed: 'pip install keras'.  
@@ -48,9 +48,40 @@ If you are curious to visualize one of the letters:
 
 ![TensorFlow](/images/keras1.png)
 
+Training:
 
-      
-     
+Will use the train_images and train_labels to train the model. The test_images and test_labels will be used for testing the model. Images are encoded as Numpy arrays and the labels are an array of digits ranging from 0 to 9.
+
+Let's have a look at the training data:
+
+      train_labels[1]
+      0
+      train_images.shape
+      (60000, 28, 28)
+      len(train_labels)
+      60000
+      train_labels
+      array([5, 0, 4, ..., 5, 6, 8], dtype=uint8)
+
+Let's have a look at the test data:
+  
+      test_images.shape
+      len(test_labels)
+      10000
+      test_labels
+      array([7, 2, 1, ..., 4, 5, 6], dtype=uint8)
+
+Workflow: will input into the neural network the training data, train_images and train_labels, which in turn will learn to associate images and labels. Then will request the network to produce predictions for test_images, and we will verify if they match the labels from test_labels.
+
+
+To be continued... very soon.. 
+
+
+
+
+
+
+---------------------------
 
 #### Sources: 
 
