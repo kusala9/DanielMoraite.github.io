@@ -322,7 +322,30 @@ Of course you can pick more steps instead of 10 or maybe less: just make sure yo
 As you can see: It did classify as ship images that have straight lines and bringht pixels 
 - which I guess is the next step in finding a way to polish the model - though that's for another time. 
 
+#### Now let's make sense of tags and find them on the image:
 
+    for e in coordinates:
+        show_ship(e[0][0], e[0][1], e[1][0][1])
+
+    picture_tensor = picture_tensor.transpose(1,2,0)
+    picture_tensor.shape
+    (1777, 2825, 3)
+
+    plt.figure(1, figsize = (15, 30))
+
+    plt.subplot(3,1,1)
+    plt.imshow(picture_tensor)
+
+    plt.show()
+
+
+![# Welcome to my adventure](/images/ships4.png)
+
+-------------------------
+
+Of course you can re-train the model and give it another run or with the current model give a second search and see what you might get. 
+
+Good Luck and maybe next time will spot some cars .. if we find some nice labeled data. 
           
 -------------------------
 
