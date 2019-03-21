@@ -354,12 +354,12 @@ Good Luck and maybe next time will spot some cars .. if we find some nice labele
 
 ##### Sources: 
 
-- Planet data [you can check how to extract images from my article]()
-- my Tensorflow article on [Keras]()
+- Planet data [you can check how to extract images from my article](https://danielmoraite.github.io/docs/satellite1.html)
+- my Tensorflow article on [Keras](https://danielmoraite.github.io/docs/fifth.html)
 - [Kaggle competition data download](https://www.kaggle.com/rhammell/ships-in-satellite-imagery)
-- find my full Jupyter notebook on [GitHub]()
+- find my full Jupyter notebook on [GitHub](https://github.com/DanielMoraite/DanielMoraite.github.io/blob/master/assets/Keras%20for%20search%20ships%20in%20satellite%20image.ipynb)
 
-- and special support from and thanks to my dear friend [Laurens Geffert]()
+- and special support from and thanks to my dear friend [Laurens Geffert](https://janlauge.github.io)
 
 ---------------------------
 ---------------------------
