@@ -36,9 +36,9 @@
 
 #### Satellites:
 
-Space.. the final frontier. Above us, Around us, Within us.  
+Space.. the final frontier. Above us, Around us, Within us.
 
-We have always looked at the stars to discover who we are.  
+We have always looked at the stars to discover who we are.
 
 * [Satellite Imagery Analysis with Python](docs/satellite1.md)
 > First getting that abundant data from Planet...
