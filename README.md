@@ -52,7 +52,7 @@ We have always looked at the stars to discover who we are.
 
 ------------------------------------------
 
-| [Inspiring Articles](docs/inspiring.md) | 
+| [Inspiring Articles & News](docs/inspiring.md) | 
 
 | [Contact](docs/contact.md) | 
 
