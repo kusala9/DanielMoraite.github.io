@@ -92,7 +92,7 @@ Workflow: will input into the neural network the training data, train_images and
 
 The "layer" is a data-processing module which can be conceived as a "filter" for data. Layers extract representations out of the data fed into them. Deep learning could mainly consist of chaining together simple layers which will implement a form of progressive "data distillation". A deep learning model is made of a succession of increasingly refined data filters which are the "layers".
 
-Here our network consists of a sequence of two Dense layers, which are densely-connected (also called "fully-connected") neural layers. The second (and last) layer is a 10-way "softmax" layer, which means it will return an array of 10 probability scores (summing to 1). Each score will be the probability that the current digit image belongs to one of our 10 digit classes.
+The network consists of a sequence of two Dense layers. The second layer is a 10-way "softmax" layer, which will return an array of 10 probability scores (summing to 1). Each score will be the probability that the current digit image belongs to one of our 10 digit classes.
 
 To ready the network for training, as part of "compilation" step, will set:
 
