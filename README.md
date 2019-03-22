@@ -27,7 +27,7 @@
 > Almost there: algorithms, interesting projects and new developments. 
 
 * [Tensorflow and NN](docs/fifth.md)
-> Docking in progress: networks and some of my favorite projects.
+> Docking to space station: networks and some of my favorite projects.
 
 * [Into the deep space](docs/sixth.md)
 > Coming soon: Just a few random projects: Object Detection, OpenCV, etc.
