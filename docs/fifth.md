@@ -92,15 +92,21 @@ Workflow: will input into the neural network the training data, train_images and
 
 The "layer" is a data-processing module which can be conceived as a "filter" for data. Layers extract representations out of the data fed into them. Deep learning could mainly consist of chaining together simple layers which will implement a form of progressive "data distillation". A deep learning model is made of a succession of increasingly refined data filters which are the "layers".
 
-The network consists of a sequence of two Dense layers. The second layer is a 10-way "softmax" layer, which will return an array of 10 probability scores (summing to 1). Each score will be the probability that the current digit image belongs to one of our 10 digit classes.
+The network consists of a sequence of two Dense layers. The second layer is a 10-way "softmax" layer, which will return an array of 10 probability scores (summing to 1), the probability that the current digit image belongs to one of the 10 digit classes.
 
 To ready the network for training, as part of "compilation" step, will set:
 
+      network.compile(optimizer='rmsprop',
+                loss='categorical_crossentropy',
+                metrics=['accuracy'])
+
 - An optimizer: this is the mechanism through which the network will update itself based on the data it sees and its loss function.
 - Metrics to monitor during training and testing. Will be interested only in the fraction of the images that were correctly classified: 'accuracy'.
-- Last but not least: the loss function: the is how the network will be able to measure how good a job it is doing on its training data, and thus how it will be able to steer itself in the right direction.
+- Last but not least: the loss function: this is how the network will be able to measure how good a job it is doing on its training data, and thus how it will be able to steer itself in the right direction.
 
-Actually my dear friend Laurens, who was guiding and mentoring me, took me through the simple math of the loss function:
+For segmentation, object detection or classification a common loss is cross-entropy:
+
+Actually, while working on the [ship detection](https://danielmoraite.github.io/docs/Satellite3NNKeras.html) in satellite imagery project, my dear friend Laurens, who was guiding and mentoring me, took me through the simple math of the loss function: 
 
 ![TensorFlow](/images/LossFunction.png)
 
@@ -108,15 +114,42 @@ Which was pretty useful to cement the basics.
 
 ![TensorFlow](/images/LossFunctionCalc.JPG) 
 
-      network.compile(optimizer='rmsprop',
-                loss='categorical_crossentropy',
-                metrics=['accuracy'])
+Check the article bellow: How to use deep learning on satellite imagery — Playing with the loss function, if interested in fine tunning your algorithm and please let me know if you find some concrete examples (including code). 
 
+The network expects values between 0 and 1 [0, 1] for which we will: 
 
-To be continued... very soon.. 
+      train_images = train_images.reshape((60000, 28 * 28)) 
+      train_images = train_images.astype('float32') / 255  # pixels values between [0, 255]
 
+      test_images = test_images.reshape((10000, 28 * 28))
+      test_images = test_images.astype('float32') / 255
 
+As well categorically encoding the labels:
 
+      from keras.utils import to_categorical
+
+      train_labels = to_categorical(train_labels)
+      test_labels = to_categorical(test_labels)
+
+Now let's fit the model: 
+
+      network.fit(train_images, train_labels, epochs=10, batch_size=128)
+
+![TensorFlow](/images/Keras1.png) 
+
+Displayed during training: the "loss" of the network and the accuracy of the network over the training data.
+We get an accuracy of 0.9972 (i.e. 99.72%) on the training data. 
+Let's check the model on the test set:
+
+      test_loss, test_acc = network.evaluate(test_images, test_labels)
+      10000/10000 [==============================] - 1s 54us/step
+      
+      print('test_acc:', test_acc)
+      test_acc: 0.9813
+
+Test set accuracy turns out to be 98.1%, a bit lower than the training set accuracy. 
+The gap between training accuracy and test accuracy is an example of "overfitting". 
+Machine learning models tend to perform worse on new data than on their training data.
 
 
 
