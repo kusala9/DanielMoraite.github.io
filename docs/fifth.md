@@ -106,7 +106,7 @@ Actually my dear friend Laurens, who was guiding and mentoring me, took me throu
 
 Which was pretty useful to cement the basics. 
 
-![TensorFlow](/images/LossFunctionCalc.jpg) 
+![TensorFlow](/images/LossFunctionCalc.JPG) 
 
       network.compile(optimizer='rmsprop',
                 loss='categorical_crossentropy',
