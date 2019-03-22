@@ -6,6 +6,15 @@
 -------------------------
 ##### Motto: Learning by doing!!!
 ---------------------------------
+
+#### for Satellites: 
+
+Feel free to browse through my articles and find at the end of each article the used and recommended resources. 
+
+---------------------------------
+
+#### for everything else:
+
 Please find bellow a list with all the resources I've been using so far. 
 
 1. [TreeHouse](https://teamtreehouse.com/home) Maybe the best classes for beginners, both for python and data science, ML. 
