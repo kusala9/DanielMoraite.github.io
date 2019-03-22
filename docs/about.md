@@ -6,7 +6,7 @@
 
 Hi everyone, 
 
-I am writing this since I am passionate about technology and I’ve enjoyed understanding the mechanics behind the new innovative solutions and products I’ve encountered in the field of data analytics, machine learning and deep learning. 
+I am writing this since I am passionate about technology and since I enjoy understanding the mechanics behind the new innovative solutions and products I encountered in the field of data analytics, machine learning and deep learning. 
 
 My previous roles inspired me to get closer to the practical side of things and I started studying data science and coding on my own.
 
@@ -26,6 +26,7 @@ I am currently studying concepts and techniques around:
 I will go through different resources and discuss what is my take from each of them. 
 As books, online classes and schools, data sources, and some troubleshooting topics. 
 
+One of my other passions are satellites and the superb ways you can use their data to better the world we are living in. 
 
 
 ### Acknowledgements: 
