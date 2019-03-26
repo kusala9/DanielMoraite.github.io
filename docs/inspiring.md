@@ -4,7 +4,7 @@
 
 ### Satellites:
 
-[Free satellite data available to help tackle public sector challenges by UK Governement.](https://www.gov.uk/government/news/free-satellite-data-available-to-help-tackle-public-sector-challenges)
+[Free satellite data available to help tackle public sector challenges by UK Government.](https://www.gov.uk/government/news/free-satellite-data-available-to-help-tackle-public-sector-challenges)
 
 I have requested access, so fingers crossed since the archive of images and radar data for research and development projects is available to Government departments, emergency services and local authorities as well as industry and academia if their work meets a public sector need.
 
