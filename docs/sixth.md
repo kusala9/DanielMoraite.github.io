@@ -10,13 +10,14 @@ And since billions of IoT devices will get activated in the upcoming years, we n
 
 The hardware is there or almost there(when we talk about specialized microchips) and the software that enables computations on such small devices is very fast emerging from different agile minds. Few of these minds I’ve met at Plumer.ai. 
 
-They’ve put together Larq, which, to quote: >is an open source machine learning library for training Quantized Neural Networks (QNNs) with extremely low precision weights and activations (e.g. 1-bit). Existing Deep Neural Networks tend to be large, slow and power-hungry, prohibiting many applications in resource-constrained environments. Larq is designed to provide an easy to use, composable way to train QNNs (e.g. Binarized Neural Networks) based on the tf.keras interface.
+They’ve put together Larq, which, to quote: 
+> is an open source machine learning library for training Quantized Neural Networks (QNNs) with extremely low precision weights and activations (e.g. 1-bit). Existing Deep Neural Networks tend to be large, slow and power-hungry, prohibiting many applications in resource-constrained environments. Larq is designed to provide an easy to use, composable way to train QNNs (e.g. Binarized Neural Networks) based on the 'tf.keras' interface.
 
 ----------------
 
 ### Now let's give it a try: 
 
-First things first: pip install plumerai
+First things first: pip install larq
 
 ![TensorFlow](/images/plumerai1.png)
 
