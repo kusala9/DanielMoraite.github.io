@@ -62,27 +62,27 @@ Will run it on the well known data sets: MNIST
 
     lq.models.summary(model)
     
-    Layer                  Outputs             # 1-bit    # 32-bit
----------------------  ----------------  ---------  ----------
-quant_conv2d           (-1, 26, 26, 32)        288           0
-max_pooling2d          (-1, 13, 13, 32)          0           0
-batch_normalization    (-1, 13, 13, 32)          0          96
-quant_conv2d_1         (-1, 11, 11, 64)      18432           0
-max_pooling2d_1        (-1, 5, 5, 64)            0           0
-batch_normalization_1  (-1, 5, 5, 64)            0         192
-quant_conv2d_2         (-1, 3, 3, 64)        36864           0
-batch_normalization_2  (-1, 3, 3, 64)            0         192
-flatten                (-1, 576)                 0           0
-quant_dense            (-1, 64)              36864           0
-batch_normalization_3  (-1, 64)                  0         192
-quant_dense_1          (-1, 10)                640           0
-batch_normalization_4  (-1, 10)                  0          30
-activation             (-1, 10)                  0           0
-Total                                        93088         702
+            Layer                  Outputs             # 1-bit    # 32-bit
+        ---------------------  ----------------  ---------  ----------
+        quant_conv2d           (-1, 26, 26, 32)        288           0
+        max_pooling2d          (-1, 13, 13, 32)          0           0
+        batch_normalization    (-1, 13, 13, 32)          0          96
+        quant_conv2d_1         (-1, 11, 11, 64)      18432           0
+        max_pooling2d_1        (-1, 5, 5, 64)            0           0
+        batch_normalization_1  (-1, 5, 5, 64)            0         192
+        quant_conv2d_2         (-1, 3, 3, 64)        36864           0
+        batch_normalization_2  (-1, 3, 3, 64)            0         192
+        flatten                (-1, 576)                 0           0
+        quant_dense            (-1, 64)              36864           0
+        batch_normalization_3  (-1, 64)                  0         192
+        quant_dense_1          (-1, 10)                640           0
+        batch_normalization_4  (-1, 10)                  0          30
+        activation             (-1, 10)                  0           0
+        Total                                        93088         702
 
-Total params: 93790
-Trainable params: 93322
-Non-trainable params: 468
+        Total params: 93790
+        Trainable params: 93322
+        Non-trainable params: 468
 
 ---------------------------------
 
